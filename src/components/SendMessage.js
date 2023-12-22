@@ -24,6 +24,8 @@ const SendMessage = () => {
     });
     //After this is done, it then resets the message state to an empty string.
     setMessage('');
+    scroll.current.scrollIntoView({ behavior: "smooth" });
+
   };
 
   return (
